@@ -18,6 +18,15 @@
       <p class="text-center">ผู้อำนวยการโรงเรียน</p>
       <LeftSection />
 
+      <InterestingLinks
+      title="แหล่งข้อมูลที่แนะนำ"
+      :links="[
+        { label: 'กระทรวงศึกษาธิการ', url: 'https://www.moe.go.th/' },
+        { label: 'สพฐ.ร้อยเอ็ด เขต 1', url: 'https://roiet1.go.th/' },
+        { label: 'ระบบลงทะเบียนเรียน', url: 'https://reg.example.com/' }
+      ]"
+    />
+
           <!-- Section Facebook -->
     <SectionFacebook
       title="Nong Berd"
@@ -46,7 +55,8 @@ import MapPage from "@/views/MapPage.vue";
 import RightSection from "@/components/RightSection.vue";
 import LeftSection from "@/components/LeftSection.vue";
 import SectionFacebook from "@/components/SectionFacebook.vue";
-  
+import InterestingLinks from "@/components/InterestingLinks.vue";
+
   export default {
     name: "Home",
     components: { 
@@ -56,6 +66,7 @@ import SectionFacebook from "@/components/SectionFacebook.vue";
     RightSection,
     LeftSection,
     SectionFacebook,
+    InterestingLinks,
     },
   };
   </script>
