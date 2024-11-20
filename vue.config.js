@@ -6,7 +6,7 @@ module.exports = defineConfig({
     index: {
       // entry for the page
       entry: 'src/main.js',
-      title: 'โรงเรียนบ้านหนองเบิด สพป.ร้อยเอ็ด เขต ๑',
+      title: 'โรงเรียนบ้านหนองเบิด',
     },
   }
 })
