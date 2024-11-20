@@ -24,11 +24,11 @@
       return {
         currentIndex: 0,
         images: [
-          require("@/assets/images/slide1.jpg"),
-          require("@/assets/images/slide2.jpg"),
-          require("@/assets/images/slide3.jpg"),
-          require("@/assets/images/slide4.jpg"),
-          require("@/assets/images/slide5.jpg"),
+          require("@/assets/images/slide1.png"),
+          require("@/assets/images/slide2.png"),
+          require("@/assets/images/slide3.png"),
+          require("@/assets/images/slide4.png"),
+          require("@/assets/images/slide5.png"),
         ],
         intervalId: null, // สำหรับจัดการ setInterval
       };
